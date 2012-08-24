@@ -10,17 +10,4 @@
    <FileRef
       location = "group:submodules/LdapKit/LdapKit.xcodeproj">
    </FileRef>
-   <Group
-      location = "container:"
-      name = "iOSPorts">
-      <FileRef
-         location = "group:submodules/iOSPorts/ports/security/openssl/openssl.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:submodules/iOSPorts/ports/security/cyrus-sasl/Cyrus SASL.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:submodules/iOSPorts/ports/database/openldap/openldap.xcodeproj">
-      </FileRef>
-   </Group>
 </Workspace>

@@ -6,6 +6,32 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A090FE6015E7F23A00A6041D /* IDM Demo: Git Submodules */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A090FE6115E7F23A00A6041D /* Build configuration list for PBXAggregateTarget "IDM Demo: Git Submodules" */;
+			buildPhases = (
+				A090FE6415E7F24200A6041D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "IDM Demo: Git Submodules";
+			productName = "IDM Demo: Git Submodules";
+		};
+		A090FE7915E8136900A6041D /* IDM Demo: Git Package Version */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A090FE7A15E8136900A6041D /* Build configuration list for PBXAggregateTarget "IDM Demo: Git Package Version" */;
+			buildPhases = (
+				A090FE8115E8138B00A6041D /* ShellScript */,
+			);
+			dependencies = (
+				A090FE8F15E817CD00A6041D /* PBXTargetDependency */,
+			);
+			name = "IDM Demo: Git Package Version";
+			productName = "IDM Demo: Git Package Version";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		A090FDD615E7EA9F00A6041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FDD515E7EA9F00A6041D /* UIKit.framework */; };
 		A090FDD815E7EA9F00A6041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FDD715E7EA9F00A6041D /* Foundation.framework */; };
@@ -13,13 +39,8 @@
 		A090FDE015E7EA9F00A6041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */; };
 		A090FDE215E7EA9F00A6041D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE115E7EA9F00A6041D /* main.m */; };
 		A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */; };
-		A090FE5415E7F0B800A6041D /* libBindleKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4D15E7F08400A6041D /* libBindleKit.a */; };
-		A090FE5515E7F0CA00A6041D /* libiLdapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4315E7F07500A6041D /* libiLdapKit.a */; };
-		A090FE5B15E7F0CA00A6041D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE5615E7F0CA00A6041D /* libcrypto.a */; };
-		A090FE5C15E7F0CA00A6041D /* liblber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE5715E7F0CA00A6041D /* liblber.a */; };
-		A090FE5D15E7F0CA00A6041D /* libldap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE5815E7F0CA00A6041D /* libldap.a */; };
-		A090FE5E15E7F0CA00A6041D /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE5915E7F0CA00A6041D /* libsasl2.a */; };
-		A090FE5F15E7F0CA00A6041D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE5A15E7F0CA00A6041D /* libssl.a */; };
+		A090FE8215E814BC00A6041D /* libBindleKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4D15E7F08400A6041D /* libBindleKit.a */; };
+		A090FE8315E8172400A6041D /* libiLdapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4315E7F07500A6041D /* libiLdapKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,19 +72,19 @@
 			remoteGlobalIDString = A0F713591413520300252B5F;
 			remoteInfo = BindleKit;
 		};
-		A090FE5015E7F09300A6041D /* PBXContainerItemProxy */ = {
+		A090FE7F15E8138200A6041D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
+			containerPortal = A090FDC815E7EA9F00A6041D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A07D34F3140DC1E800832E1F;
-			remoteInfo = iBindleKit;
+			remoteGlobalIDString = A090FE7915E8136900A6041D;
+			remoteInfo = "IDM Demo: Git Package Version";
 		};
-		A090FE5215E7F09800A6041D /* PBXContainerItemProxy */ = {
+		A090FE8E15E817CD00A6041D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
+			containerPortal = A090FDC815E7EA9F00A6041D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0CFA80D1587829400EBEB32;
-			remoteInfo = iLdapKit;
+			remoteGlobalIDString = A090FE6015E7F23A00A6041D;
+			remoteInfo = "IDM Demo: Git Submodules";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -95,13 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A090FE5B15E7F0CA00A6041D /* libcrypto.a in Frameworks */,
-				A090FE5C15E7F0CA00A6041D /* liblber.a in Frameworks */,
-				A090FE5D15E7F0CA00A6041D /* libldap.a in Frameworks */,
-				A090FE5E15E7F0CA00A6041D /* libsasl2.a in Frameworks */,
-				A090FE5F15E7F0CA00A6041D /* libssl.a in Frameworks */,
-				A090FE5515E7F0CA00A6041D /* libiLdapKit.a in Frameworks */,
-				A090FE5415E7F0B800A6041D /* libBindleKit.a in Frameworks */,
+				A090FE8315E8172400A6041D /* libiLdapKit.a in Frameworks */,
+				A090FE8215E814BC00A6041D /* libBindleKit.a in Frameworks */,
 				A090FDD615E7EA9F00A6041D /* UIKit.framework in Frameworks */,
 				A090FDD815E7EA9F00A6041D /* Foundation.framework in Frameworks */,
 				A090FDDA15E7EA9F00A6041D /* CoreGraphics.framework in Frameworks */,
@@ -228,8 +244,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A090FE5315E7F09800A6041D /* PBXTargetDependency */,
-				A090FE5115E7F09300A6041D /* PBXTargetDependency */,
+				A090FE8015E8138200A6041D /* PBXTargetDependency */,
 			);
 			name = IDMDemo;
 			productName = IDMDemo;
@@ -269,6 +284,8 @@
 			projectRoot = "";
 			targets = (
 				A090FDD015E7EA9F00A6041D /* IDMDemo */,
+				A090FE6015E7F23A00A6041D /* IDM Demo: Git Submodules */,
+				A090FE7915E8136900A6041D /* IDM Demo: Git Package Version */,
 			);
 		};
 /* End PBXProject section */
@@ -315,6 +332,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A090FE6415E7F24200A6041D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd `git rev-parse --show-toplevel`\ngit submodule init\ngit submodule sync\ngit submodule update";
+			showEnvVarsInLog = 0;
+		};
+		A090FE8115E8138B00A6041D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "submodules/BindleKit/build-aux/git-package-version.sh auto";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A090FDCD15E7EA9F00A6041D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -328,15 +376,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A090FE5115E7F09300A6041D /* PBXTargetDependency */ = {
+		A090FE8015E8138200A6041D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iBindleKit;
-			targetProxy = A090FE5015E7F09300A6041D /* PBXContainerItemProxy */;
+			target = A090FE7915E8136900A6041D /* IDM Demo: Git Package Version */;
+			targetProxy = A090FE7F15E8138200A6041D /* PBXContainerItemProxy */;
 		};
-		A090FE5315E7F09800A6041D /* PBXTargetDependency */ = {
+		A090FE8F15E817CD00A6041D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iLdapKit;
-			targetProxy = A090FE5215E7F09800A6041D /* PBXContainerItemProxy */;
+			target = A090FE6015E7F23A00A6041D /* IDM Demo: Git Submodules */;
+			targetProxy = A090FE8E15E817CD00A6041D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,6 +473,34 @@
 			};
 			name = Release;
 		};
+		A090FE6215E7F23A00A6041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A090FE6315E7F23A00A6041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A090FE7B15E8136900A6041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A090FE7C15E8136900A6041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +521,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A090FE6115E7F23A00A6041D /* Build configuration list for PBXAggregateTarget "IDM Demo: Git Submodules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A090FE6215E7F23A00A6041D /* Debug */,
+				A090FE6315E7F23A00A6041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A090FE7A15E8136900A6041D /* Build configuration list for PBXAggregateTarget "IDM Demo: Git Package Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A090FE7B15E8136900A6041D /* Debug */,
+				A090FE7C15E8136900A6041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
