@@ -72,8 +72,8 @@
 		A090FDDB15E7EA9F00A6041D /* IDMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */,
-				A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */,
+				A090FDEC15E7EB6D00A6041D /* Controllers */,
+				A090FE0415E7EB9A00A6041D /* Other Sources */,
 				A090FDDC15E7EA9F00A6041D /* Supporting Files */,
 			);
 			path = IDMDemo;
@@ -84,10 +84,29 @@
 			children = (
 				A090FDDD15E7EA9F00A6041D /* IDMDemo-Info.plist */,
 				A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			path = support;
+			sourceTree = "<group>";
+		};
+		A090FDEC15E7EB6D00A6041D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */,
+				A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */,
+			);
+			name = Controllers;
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A090FE0415E7EB9A00A6041D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
 				A090FDE115E7EA9F00A6041D /* main.m */,
 				A090FDE315E7EA9F00A6041D /* IDMDemo-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = "Other Sources";
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +246,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDMDemo/IDMDemo-Prefix.pch";
-				INFOPLIST_FILE = "IDMDemo/IDMDemo-Info.plist";
+				GCC_PREFIX_HEADER = "IDMDemo/other/IDMDemo-Prefix.pch";
+				INFOPLIST_FILE = "IDMDemo/support/IDMDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -238,8 +257,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IDMDemo/IDMDemo-Prefix.pch";
-				INFOPLIST_FILE = "IDMDemo/IDMDemo-Info.plist";
+				GCC_PREFIX_HEADER = "IDMDemo/other/IDMDemo-Prefix.pch";
+				INFOPLIST_FILE = "IDMDemo/support/IDMDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
