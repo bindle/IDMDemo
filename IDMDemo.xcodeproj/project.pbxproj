@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A090FDD615E7EA9F00A6041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FDD515E7EA9F00A6041D /* UIKit.framework */; };
+		A090FDD815E7EA9F00A6041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FDD715E7EA9F00A6041D /* Foundation.framework */; };
+		A090FDDA15E7EA9F00A6041D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FDD915E7EA9F00A6041D /* CoreGraphics.framework */; };
+		A090FDE015E7EA9F00A6041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */; };
+		A090FDE215E7EA9F00A6041D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE115E7EA9F00A6041D /* main.m */; };
+		A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A090FDD115E7EA9F00A6041D /* IDMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A090FDD515E7EA9F00A6041D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A090FDD715E7EA9F00A6041D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A090FDD915E7EA9F00A6041D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A090FDDD15E7EA9F00A6041D /* IDMDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDMDemo-Info.plist"; sourceTree = "<group>"; };
+		A090FDDF15E7EA9F00A6041D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A090FDE115E7EA9F00A6041D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A090FDE315E7EA9F00A6041D /* IDMDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDMDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
+		A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A090FDCE15E7EA9F00A6041D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A090FDD615E7EA9F00A6041D /* UIKit.framework in Frameworks */,
+				A090FDD815E7EA9F00A6041D /* Foundation.framework in Frameworks */,
+				A090FDDA15E7EA9F00A6041D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A090FDC615E7EA9F00A6041D = {
+			isa = PBXGroup;
+			children = (
+				A090FDDB15E7EA9F00A6041D /* IDMDemo */,
+				A090FDD415E7EA9F00A6041D /* Frameworks */,
+				A090FDD215E7EA9F00A6041D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A090FDD215E7EA9F00A6041D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A090FDD115E7EA9F00A6041D /* IDMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A090FDD415E7EA9F00A6041D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A090FDD515E7EA9F00A6041D /* UIKit.framework */,
+				A090FDD715E7EA9F00A6041D /* Foundation.framework */,
+				A090FDD915E7EA9F00A6041D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A090FDDB15E7EA9F00A6041D /* IDMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */,
+				A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */,
+				A090FDDC15E7EA9F00A6041D /* Supporting Files */,
+			);
+			path = IDMDemo;
+			sourceTree = "<group>";
+		};
+		A090FDDC15E7EA9F00A6041D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A090FDDD15E7EA9F00A6041D /* IDMDemo-Info.plist */,
+				A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */,
+				A090FDE115E7EA9F00A6041D /* main.m */,
+				A090FDE315E7EA9F00A6041D /* IDMDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A090FDD015E7EA9F00A6041D /* IDMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDMDemo" */;
+			buildPhases = (
+				A090FDCD15E7EA9F00A6041D /* Sources */,
+				A090FDCE15E7EA9F00A6041D /* Frameworks */,
+				A090FDCF15E7EA9F00A6041D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDMDemo;
+			productName = IDMDemo;
+			productReference = A090FDD115E7EA9F00A6041D /* IDMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A090FDC815E7EA9F00A6041D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Bindle Binaries";
+			};
+			buildConfigurationList = A090FDCB15E7EA9F00A6041D /* Build configuration list for PBXProject "IDMDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A090FDC615E7EA9F00A6041D;
+			productRefGroup = A090FDD215E7EA9F00A6041D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A090FDD015E7EA9F00A6041D /* IDMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A090FDCF15E7EA9F00A6041D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A090FDE015E7EA9F00A6041D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A090FDCD15E7EA9F00A6041D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A090FDE215E7EA9F00A6041D /* main.m in Sources */,
+				A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A090FDDF15E7EA9F00A6041D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A090FDE715E7EA9F00A6041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A090FDE815E7EA9F00A6041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A090FDEA15E7EA9F00A6041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDMDemo/IDMDemo-Prefix.pch";
+				INFOPLIST_FILE = "IDMDemo/IDMDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A090FDEB15E7EA9F00A6041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDMDemo/IDMDemo-Prefix.pch";
+				INFOPLIST_FILE = "IDMDemo/IDMDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A090FDCB15E7EA9F00A6041D /* Build configuration list for PBXProject "IDMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A090FDE715E7EA9F00A6041D /* Debug */,
+				A090FDE815E7EA9F00A6041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A090FDEA15E7EA9F00A6041D /* Debug */,
+				A090FDEB15E7EA9F00A6041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A090FDC815E7EA9F00A6041D /* Project object */;
+}
