@@ -1,0 +1,9 @@
+[submodule "submodules/iOSPorts"]
+	path = submodules/iOSPorts
+	url = git://github.com/bindle/iOSPorts.git
+[submodule "submodules/LdapKit"]
+	path = submodules/LdapKit
+	url = git://github.com/bindle/LdapKit.git
+[submodule "submodules/BindleKit"]
+	path = submodules/BindleKit
+	url = git://github.com/bindle/BindleKit.git
