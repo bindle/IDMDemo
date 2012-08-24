@@ -26,6 +26,9 @@
 		A090FDE315E7EA9F00A6041D /* IDMDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDMDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
 		A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
+		A090FE0515E7EE1B00A6041D /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A090FE0615E7EE1B00A6041D /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A090FE0715E7EE1B00A6041D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,9 @@
 		A090FDC615E7EA9F00A6041D = {
 			isa = PBXGroup;
 			children = (
+				A090FE0515E7EE1B00A6041D /* ChangeLog */,
+				A090FE0615E7EE1B00A6041D /* COPYING */,
+				A090FE0715E7EE1B00A6041D /* README */,
 				A090FDDB15E7EA9F00A6041D /* IDMDemo */,
 				A090FDD415E7EA9F00A6041D /* Frameworks */,
 				A090FDD215E7EA9F00A6041D /* Products */,
