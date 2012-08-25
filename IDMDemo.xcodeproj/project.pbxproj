@@ -89,7 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A090FDD115E7EA9F00A6041D /* IDMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A090FDD115E7EA9F00A6041D /* IDM Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDM Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A090FDD515E7EA9F00A6041D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A090FDD715E7EA9F00A6041D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A090FDD915E7EA9F00A6041D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,11 +104,11 @@
 		A090FE0715E7EE1B00A6041D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LdapKit.xcodeproj; path = submodules/LdapKit/LdapKit.xcodeproj; sourceTree = "<group>"; };
 		A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindleKit.xcodeproj; path = submodules/BindleKit/BindleKit.xcodeproj; sourceTree = "<group>"; };
-		A090FE5615E7F0CA00A6041D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libcrypto.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
-		A090FE5715E7F0CA00A6041D /* liblber.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = liblber.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/liblber.a"; sourceTree = "<group>"; };
-		A090FE5815E7F0CA00A6041D /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libldap.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/libldap.a"; sourceTree = "<group>"; };
-		A090FE5915E7F0CA00A6041D /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libsasl2.a; path = "submodules/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
-		A090FE5A15E7F0CA00A6041D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libssl.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		A090FE5615E7F0CA00A6041D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		A090FE5715E7F0CA00A6041D /* liblber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblber.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/liblber.a"; sourceTree = "<group>"; };
+		A090FE5815E7F0CA00A6041D /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libldap.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/libldap.a"; sourceTree = "<group>"; };
+		A090FE5915E7F0CA00A6041D /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "submodules/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+		A090FE5A15E7F0CA00A6041D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		A090FDD215E7EA9F00A6041D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A090FDD115E7EA9F00A6041D /* IDMDemo.app */,
+				A090FDD115E7EA9F00A6041D /* IDM Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,9 +233,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A090FDD015E7EA9F00A6041D /* IDMDemo */ = {
+		A090FDD015E7EA9F00A6041D /* IDM Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDMDemo" */;
+			buildConfigurationList = A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDM Demo" */;
 			buildPhases = (
 				A090FDCD15E7EA9F00A6041D /* Sources */,
 				A090FDCE15E7EA9F00A6041D /* Frameworks */,
@@ -246,9 +246,9 @@
 			dependencies = (
 				A090FE8015E8138200A6041D /* PBXTargetDependency */,
 			);
-			name = IDMDemo;
+			name = "IDM Demo";
 			productName = IDMDemo;
-			productReference = A090FDD115E7EA9F00A6041D /* IDMDemo.app */;
+			productReference = A090FDD115E7EA9F00A6041D /* IDM Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				A090FDD015E7EA9F00A6041D /* IDMDemo */,
+				A090FDD015E7EA9F00A6041D /* IDM Demo */,
 				A090FE6015E7F23A00A6041D /* IDM Demo: Git Submodules */,
 				A090FE7915E8136900A6041D /* IDM Demo: Git Package Version */,
 			);
@@ -513,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDMDemo" */ = {
+		A090FDE915E7EA9F00A6041D /* Build configuration list for PBXNativeTarget "IDM Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A090FDEA15E7EA9F00A6041D /* Debug */,
@@ -529,6 +529,7 @@
 				A090FE6315E7F23A00A6041D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A090FE7A15E8136900A6041D /* Build configuration list for PBXAggregateTarget "IDM Demo: Git Package Version" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +538,7 @@
 				A090FE7C15E8136900A6041D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

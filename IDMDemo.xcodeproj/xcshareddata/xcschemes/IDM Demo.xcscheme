@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A090FDD015E7EA9F00A6041D"
-               BuildableName = "IDMDemo.app"
-               BlueprintName = "IDMDemo"
+               BuildableName = "IDM Demo.app"
+               BlueprintName = "IDM Demo"
                ReferencedContainer = "container:IDMDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A090FDD015E7EA9F00A6041D"
-            BuildableName = "IDMDemo.app"
-            BlueprintName = "IDMDemo"
+            BuildableName = "IDM Demo.app"
+            BlueprintName = "IDM Demo"
             ReferencedContainer = "container:IDMDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A090FDD015E7EA9F00A6041D"
-            BuildableName = "IDMDemo.app"
-            BlueprintName = "IDMDemo"
+            BuildableName = "IDM Demo.app"
+            BlueprintName = "IDM Demo"
             ReferencedContainer = "container:IDMDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A090FDD015E7EA9F00A6041D"
-            BuildableName = "IDMDemo.app"
-            BlueprintName = "IDMDemo"
+            BuildableName = "IDM Demo.app"
+            BlueprintName = "IDM Demo"
             ReferencedContainer = "container:IDMDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
