@@ -7,6 +7,6 @@
 [submodule "submodules/BindleKit"]
 	path = submodules/BindleKit
 	url = git://github.com/bindle/BindleKit.git
-[submodule "submodules/bindletools"]
-	path = submodules/bindletools
+[submodule "contrib/bindletools"]
+	path = contrib/bindletools
 	url = git://github.com/bindle/bindletools.git
