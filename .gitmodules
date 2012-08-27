@@ -4,9 +4,9 @@
 [submodule "submodules/LdapKit"]
 	path = submodules/LdapKit
 	url = git://github.com/bindle/LdapKit.git
-[submodule "submodules/BindleKit"]
-	path = submodules/BindleKit
-	url = git://github.com/bindle/BindleKit.git
 [submodule "contrib/bindletools"]
 	path = contrib/bindletools
 	url = git://github.com/bindle/bindletools.git
+[submodule "contrib/BindleKit"]
+	path = contrib/BindleKit
+	url = git://github.com/bindle/BindleKit.git
