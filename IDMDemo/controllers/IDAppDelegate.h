@@ -38,6 +38,14 @@
 #import <UIKit/UIKit.h>
 
 @interface IDAppDelegate : UIResponder <UIApplicationDelegate>
+{
+   // app state
+   NSUserDefaults          * _defaults;
+
+   // view controllers
+   UIViewController        * _rootController;
+   UINavigationController  * _navController;
+}
 
 
 @property (strong, nonatomic) UIWindow *window;

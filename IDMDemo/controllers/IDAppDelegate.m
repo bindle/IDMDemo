@@ -44,10 +44,34 @@
 - (BOOL) application:(UIApplication *)application
    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   NSString       * packageName;
+   NSString       * packageVersion;
+   NSString       * packageBuild;
+
+   // initializes user defaults
+   _defaults = [[NSUserDefaults alloc] init];
+
+   // log package information
+   packageName      = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+   packageVersion   = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+   packageBuild     = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"GitBundleCommit"];
+   NSLog(@"%@ %@ (%@)", packageName, packageVersion, packageBuild);
+
+   // creates and configures window
    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-   // Override point for customization after application launch.
    self.window.backgroundColor = [UIColor whiteColor];
+
+   // creates root view controller
+   _rootController = [[UITableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+
+   // creates navigation controller
+   _navController = [[UINavigationController alloc] initWithRootViewController:_rootController];
+   _navController.toolbarHidden = NO;
+
+   // display window and views
+   self.window.rootViewController = _navController;
    [self.window makeKeyAndVisible];
+
    return(YES);
 }
 
