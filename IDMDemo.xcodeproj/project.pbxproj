@@ -39,39 +39,9 @@
 		A090FDE015E7EA9F00A6041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */; };
 		A090FDE215E7EA9F00A6041D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE115E7EA9F00A6041D /* main.m */; };
 		A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */; };
-		A090FE8215E814BC00A6041D /* libBindleKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4D15E7F08400A6041D /* libBindleKit.a */; };
-		A090FE8315E8172400A6041D /* libiLdapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A090FE4315E7F07500A6041D /* libiLdapKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A090FE4215E7F07500A6041D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A0CFA80E1587829400EBEB32;
-			remoteInfo = iLdapKit;
-		};
-		A090FE4415E7F07500A6041D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A0103E111587874800183DC9;
-			remoteInfo = LdapKit;
-		};
-		A090FE4C15E7F08400A6041D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A07D34F4140DC1E800832E1F;
-			remoteInfo = iBindleKit;
-		};
-		A090FE4E15E7F08400A6041D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A0F713591413520300252B5F;
-			remoteInfo = BindleKit;
-		};
 		A090FE7F15E8138200A6041D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A090FDC815E7EA9F00A6041D /* Project object */;
@@ -85,6 +55,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = A090FE6015E7F23A00A6041D;
 			remoteInfo = "IDM Demo: Git Submodules";
+		};
+		A0A0C5B315EC3C4200521C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07D34F4140DC1E800832E1F;
+			remoteInfo = iBindleKit;
+		};
+		A0A0C5B515EC3C4200521C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0F713591413520300252B5F;
+			remoteInfo = BindleKit;
+		};
+		A0A0C5CF15EC3C5300521C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0CFA80E1587829400EBEB32;
+			remoteInfo = iLdapKit;
+		};
+		A0A0C5D115EC3C5300521C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0103E111587874800183DC9;
+			remoteInfo = LdapKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,8 +100,8 @@
 		A090FE0515E7EE1B00A6041D /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
 		A090FE0615E7EE1B00A6041D /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		A090FE0715E7EE1B00A6041D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LdapKit.xcodeproj; path = submodules/LdapKit/LdapKit.xcodeproj; sourceTree = "<group>"; };
-		A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindleKit.xcodeproj; path = submodules/BindleKit/BindleKit.xcodeproj; sourceTree = "<group>"; };
+		A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LdapKit.xcodeproj; path = contrib/LdapKit/LdapKit.xcodeproj; sourceTree = "<group>"; };
+		A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BindleKit.xcodeproj; path = contrib/BindleKit/BindleKit.xcodeproj; sourceTree = "<group>"; };
 		A090FE5615E7F0CA00A6041D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
 		A090FE5715E7F0CA00A6041D /* liblber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblber.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/liblber.a"; sourceTree = "<group>"; };
 		A090FE5815E7F0CA00A6041D /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libldap.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/libldap.a"; sourceTree = "<group>"; };
@@ -116,8 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A090FE8315E8172400A6041D /* libiLdapKit.a in Frameworks */,
-				A090FE8215E814BC00A6041D /* libBindleKit.a in Frameworks */,
 				A090FDD615E7EA9F00A6041D /* UIKit.framework in Frameworks */,
 				A090FDD815E7EA9F00A6041D /* Foundation.framework in Frameworks */,
 				A090FDDA15E7EA9F00A6041D /* CoreGraphics.framework in Frameworks */,
@@ -212,20 +208,20 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		A090FE3C15E7F07400A6041D /* Products */ = {
+		A0A0C5AC15EC3C4100521C63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A090FE4315E7F07500A6041D /* libiLdapKit.a */,
-				A090FE4515E7F07500A6041D /* libLdapKit.a */,
+				A0A0C5B415EC3C4200521C63 /* libBindleKit.a */,
+				A0A0C5B615EC3C4200521C63 /* libBindleKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A090FE4715E7F08400A6041D /* Products */ = {
+		A0A0C5C915EC3C5200521C63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A090FE4D15E7F08400A6041D /* libBindleKit.a */,
-				A090FE4F15E7F08400A6041D /* libBindleKit.a */,
+				A0A0C5D015EC3C5300521C63 /* libiLdapKit.a */,
+				A0A0C5D215EC3C5300521C63 /* libLdapKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,11 +269,11 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A090FE4715E7F08400A6041D /* Products */;
+					ProductGroup = A0A0C5AC15EC3C4100521C63 /* Products */;
 					ProjectRef = A090FE4615E7F08400A6041D /* BindleKit.xcodeproj */;
 				},
 				{
-					ProductGroup = A090FE3C15E7F07400A6041D /* Products */;
+					ProductGroup = A0A0C5C915EC3C5200521C63 /* Products */;
 					ProjectRef = A090FE3B15E7F07400A6041D /* LdapKit.xcodeproj */;
 				},
 			);
@@ -291,32 +287,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A090FE4315E7F07500A6041D /* libiLdapKit.a */ = {
+		A0A0C5B415EC3C4200521C63 /* libBindleKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBindleKit.a;
+			remoteRef = A0A0C5B315EC3C4200521C63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A0A0C5B615EC3C4200521C63 /* libBindleKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBindleKit.a;
+			remoteRef = A0A0C5B515EC3C4200521C63 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A0A0C5D015EC3C5300521C63 /* libiLdapKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libiLdapKit.a;
-			remoteRef = A090FE4215E7F07500A6041D /* PBXContainerItemProxy */;
+			remoteRef = A0A0C5CF15EC3C5300521C63 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A090FE4515E7F07500A6041D /* libLdapKit.a */ = {
+		A0A0C5D215EC3C5300521C63 /* libLdapKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libLdapKit.a;
-			remoteRef = A090FE4415E7F07500A6041D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A090FE4D15E7F08400A6041D /* libBindleKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBindleKit.a;
-			remoteRef = A090FE4C15E7F08400A6041D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A090FE4F15E7F08400A6041D /* libBindleKit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBindleKit.a;
-			remoteRef = A090FE4E15E7F08400A6041D /* PBXContainerItemProxy */;
+			remoteRef = A0A0C5D115EC3C5300521C63 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -358,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "submodules/BindleKit/build-aux/git-package-version.sh auto";
+			shellScript = "contrib/bindletools/build-aux/git-package-version.sh auto";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
