@@ -37,6 +37,9 @@
 #import "IDAppDelegate.h"
 
 
+#import "IDSearchController.h"
+
+
 @implementation IDAppDelegate
 
 #pragma mark - Application Life Cycle
@@ -62,7 +65,7 @@
    self.window.backgroundColor = [UIColor whiteColor];
 
    // creates root view controller
-   _rootController = [[UITableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+   _rootController = [[IDSearchController alloc] initWIthAppDelegate:self];
 
    // creates navigation controller
    _navController = [[UINavigationController alloc] initWithRootViewController:_rootController];

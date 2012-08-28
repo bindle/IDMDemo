@@ -39,6 +39,7 @@
 		A090FDE015E7EA9F00A6041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A090FDDE15E7EA9F00A6041D /* InfoPlist.strings */; };
 		A090FDE215E7EA9F00A6041D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE115E7EA9F00A6041D /* main.m */; };
 		A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */; };
+		A0A0C64215EC43F900521C63 /* IDSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A0C64115EC43F900521C63 /* IDSearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		A090FE5815E7F0CA00A6041D /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libldap.a; path = "submodules/iOSPorts/ports/database/openldap/build/Release-iphoneos/libldap.a"; sourceTree = "<group>"; };
 		A090FE5915E7F0CA00A6041D /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "submodules/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
 		A090FE5A15E7F0CA00A6041D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "submodules/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		A0A0C64015EC43F900521C63 /* IDSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSearchController.h; sourceTree = "<group>"; };
+		A0A0C64115EC43F900521C63 /* IDSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,8 @@
 			children = (
 				A090FDE415E7EA9F00A6041D /* IDAppDelegate.h */,
 				A090FDE515E7EA9F00A6041D /* IDAppDelegate.m */,
+				A0A0C64015EC43F900521C63 /* IDSearchController.h */,
+				A0A0C64115EC43F900521C63 /* IDSearchController.m */,
 			);
 			name = Controllers;
 			path = controllers;
@@ -366,6 +371,7 @@
 			files = (
 				A090FDE215E7EA9F00A6041D /* main.m in Sources */,
 				A090FDE615E7EA9F00A6041D /* IDAppDelegate.m in Sources */,
+				A0A0C64215EC43F900521C63 /* IDSearchController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
