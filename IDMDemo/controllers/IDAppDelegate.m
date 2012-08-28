@@ -42,23 +42,24 @@
 
 @implementation IDAppDelegate
 
+// app information
+@synthesize packageBuild   = _packageBuild;
+@synthesize packageName    = _packageName;
+@synthesize packageVersion = _packageVersion;
+
 #pragma mark - Application Life Cycle
 
 - (BOOL) application:(UIApplication *)application
    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-   NSString       * packageName;
-   NSString       * packageVersion;
-   NSString       * packageBuild;
-
    // initializes user defaults
    _defaults = [[NSUserDefaults alloc] init];
 
    // log package information
-   packageName      = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
-   packageVersion   = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
-   packageBuild     = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"GitBundleCommit"];
-   NSLog(@"%@ %@ (%@)", packageName, packageVersion, packageBuild);
+   _packageName    = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+   _packageVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+   _packageBuild   = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"GitBundleCommit"];
+   NSLog(@"%@ %@ (%@)", _packageName, _packageVersion, _packageBuild);
 
    // creates and configures window
    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

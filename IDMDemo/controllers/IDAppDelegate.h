@@ -39,6 +39,11 @@
 
 @interface IDAppDelegate : UIResponder <UIApplicationDelegate>
 {
+   // app information
+   NSString                * _packageName;
+   NSString                * _packageVersion;
+   NSString                * _packageBuild;
+
    // app state
    NSUserDefaults          * _defaults;
 
@@ -48,7 +53,12 @@
 }
 
 
+// views
 @property (strong, nonatomic) UIWindow *window;
 
+// app information
+@property (nonatomic, readonly) NSString * packageName;
+@property (nonatomic, readonly) NSString * packageVersion;
+@property (nonatomic, readonly) NSString * packageBuild;
 
 @end

@@ -108,6 +108,21 @@
 }
 
 
+- (NSString *) tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+{
+   switch(section)
+   {
+      case 0:
+      return([NSString stringWithFormat:@"%@ %@ (%@)", _appDelegate.packageName,
+         _appDelegate.packageVersion, _appDelegate.packageBuild]);
+
+      default:
+      break;
+   };
+   return(nil);
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
    UITableViewCell * cell;
